@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "server\server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clientDOTNET", "clientDOTNET\clientDOTNET.csproj", "{8D484AA4-35F3-4588-9314-D95A3894C6B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clientJS", "clientJS\clientJS.csproj", "{9651A4F7-22D0-44CC-988E-81E2DA9E71E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8D484AA4-35F3-4588-9314-D95A3894C6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D484AA4-35F3-4588-9314-D95A3894C6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D484AA4-35F3-4588-9314-D95A3894C6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9651A4F7-22D0-44CC-988E-81E2DA9E71E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9651A4F7-22D0-44CC-988E-81E2DA9E71E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9651A4F7-22D0-44CC-988E-81E2DA9E71E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9651A4F7-22D0-44CC-988E-81E2DA9E71E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

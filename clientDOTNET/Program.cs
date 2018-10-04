@@ -51,7 +51,7 @@ namespace clientDOTNET
              **/
             hubConnection.Start().Wait();
 
-            chatHubProxy.Invoke("send", "ConsoleApp", "Hello world").Wait();
+            chatHubProxy.Invoke("send", userName, "Hello world").Wait();
 
             while (!terminate)
             {
@@ -73,7 +73,7 @@ namespace clientDOTNET
 
         private static void HubConnection_StateChanged(StateChange obj)
         {
-            //Console.WriteLine($"HubConnection_StateChanged from {obj.OldState} to {obj.NewState}");
+            Console.WriteLine($"HubConnection_StateChanged from {obj.OldState} to {obj.NewState}");
         }
 
         private static void HubConnection_Reconnected()
@@ -93,7 +93,7 @@ namespace clientDOTNET
 
         private static void HubConnection_Received(string obj)
         {
-            Console.WriteLine($"HubConnection_Received : {obj}");
+            //Console.WriteLine($"HubConnection_Received : {obj}");
         }
         #endregion
     }
